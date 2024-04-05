@@ -1,0 +1,17 @@
+export default[ { "_id": "RS101", "name": "Full Stack Development", "number": "RS4550", "startDate": "2023-01-10",
+    "endDate": "2023-05-15", "image": "softwaredeveloper.jpeg"  },
+  { "_id": "RS102", "name": "Frontend Development", "number": "RS4560", "startDate": "2023-01-10",
+    "endDate": "2023-05-15", "image": "frontend.png"  },
+  { "_id": "RS103", "name": "Artificial Intelligence", "number": "RS4570", "startDate": "2023-01-10",
+    "endDate": "2023-05-15", "image": "artificialintelligence.jpeg"  },
+    { "_id": "RS104", "name": "Data Science", "number": "RS4550", "startDate": "2023-01-10",
+    "endDate": "2023-05-15", "image": "datascience.jpeg"  },
+  { "_id": "RS105", "name": "Cloud Development", "number": "RS4560", "startDate": "2023-01-10",
+    "endDate": "2023-05-15", "image": "cloud.jpeg"  },
+  { "_id": "RS106", "name": "Cyber Security", "number": "RS4570", "startDate": "2023-01-10",
+    "endDate": "2023-05-15", "image": "cybersecurity.jpeg"  },
+    { "_id": "RS107", "name": "Machine Learning", "number": "RS4560", "startDate": "2023-01-10",
+    "endDate": "2023-05-15", "image": "machinelearning.jpeg"  },
+  { "_id": "RS108", "name": "DevOps", "number": "RS4570", "startDate": "2023-01-10",
+    "endDate": "2023-05-15", "image": "devops.png"  }  ]
+
