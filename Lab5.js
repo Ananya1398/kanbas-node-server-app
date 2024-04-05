@@ -162,7 +162,7 @@ const Lab5 = (app) => {
         todo.description = description;
         res.json(todos);
       });
-      app.get("/a5/todos/id/completed/:completed", (req, res) => {
+      app.get("/a5/todos/:id/completed/:completed", (req, res) => {
         const { id, completed } = req.params;
         const todo = todos.find((t) => t.id === parseInt(id));
         todo.completed = completed;
