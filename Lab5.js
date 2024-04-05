@@ -169,8 +169,15 @@ const Lab5 = (app) => {
         res.json(todos);
       });
     
-    
-    
+      app.get("/a5/todos/:id/delete", (req, res) => {
+        const { id } = req.params;
+        const todo = todos.find((t) => t.id === parseInt(id));
+        const todoIndex = todos.indexOf(todo);
+        if (todoIndex !== -1) {
+          todos.splice(todoIndex, 1);
+        }
+        res.json(todos);
+      });
     
   };
   export default Lab5;
